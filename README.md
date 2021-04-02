@@ -1,10 +1,10 @@
 # Chinese_Medical_Natural_Language_Processing_Papers
-中文医疗自然语言处理相关论文汇总
+
+中文医疗自然语言处理相关论文汇总，目前主要汇总了EMNLP2020、ACL2020和COLING2020,NAACL2020、EMNLP2021和ACL2021还未公布榜单，公布榜单之后会持续更新
 
 ## EMNLP 2020
 
 Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference and Disease Name Recognition
-
 论文地址：[https://www.aclweb.org/anthology/2020.emnlp-main.372/](https://www.aclweb.org/anthology/2020.emnlp-main.372/)
 
 
@@ -40,7 +40,7 @@ Pretrained Language Models and Backtranslation for English-Basque Biomedical Neu
 
 Towards Medical Machine Reading Comprehension with Structural Knowledge and Plain Text
 
-[论文地址：https://www.aclweb.org/anthology/2020.emnlp-main.111/](https://www.aclweb.org/anthology/2020.emnlp-main.111/)
+论文地址：[https://www.aclweb.org/anthology/2020.emnlp-main.111/](https://www.aclweb.org/anthology/2020.emnlp-main.111/)
 
 
 
@@ -48,7 +48,7 @@ Towards Medical Machine Reading Comprehension with Structural Knowledge and Plai
 
 A Knowledge-driven Generative Model for Multi-implication Chinese Medical Procedure Entity Normalization
 
-[论文地址：https://www.aclweb.org/anthology/2020.emnlp-main.116/](https://www.aclweb.org/anthology/2020.emnlp-main.116/)
+论文地址：[https://www.aclweb.org/anthology/2020.emnlp-main.116/](https://www.aclweb.org/anthology/2020.emnlp-main.116/)
 
 
 Target Concept Guided Medical Concept Normalization in Noisy User-Generated Texts
@@ -66,7 +66,7 @@ Medical Concept Normalization in User-Generated Texts by Learning Target Concept
 
 Assessment of DistilBERT performance on Named Entity Recognition task for the detection of Protected Health Information and medical concepts
 
-[论文地址：https://www.aclweb.org/anthology/2020.clinicalnlp-1.18/](https://www.aclweb.org/anthology/2020.clinicalnlp-1.18/)
+论文地址：[https://www.aclweb.org/anthology/2020.clinicalnlp-1.18/](https://www.aclweb.org/anthology/2020.clinicalnlp-1.18/)
 
 
 
@@ -74,7 +74,7 @@ Assessment of DistilBERT performance on Named Entity Recognition task for the de
 
 FedED: Federated Learning via Ensemble Distillation for Medical Relation Extraction
 
-[论文地址：https://www.aclweb.org/anthology/2020.emnlp-main.165/](https://www.aclweb.org/anthology/2020.emnlp-main.165/)
+论文地址：[https://www.aclweb.org/anthology/2020.emnlp-main.165/](https://www.aclweb.org/anthology/2020.emnlp-main.165/)
 
 
 
@@ -82,13 +82,13 @@ FedED: Federated Learning via Ensemble Distillation for Medical Relation Extract
 
 COMETA: A Corpus for Medical Entity Linking in the Social Media
 
-[论文地址：https://www.aclweb.org/anthology/2020.emnlp-main.253/](https://www.aclweb.org/anthology/2020.emnlp-main.253/)
+论文地址：[https://www.aclweb.org/anthology/2020.emnlp-main.253/](https://www.aclweb.org/anthology/2020.emnlp-main.253/)
 
 
 
 Simple Hierarchical Multi-Task Neural End-To-End Entity Linking for Biomedical Text
 
-[论文地址：https://www.aclweb.org/anthology/2020.louhi-1.2/](https://www.aclweb.org/anthology/2020.louhi-1.2/)
+论文地址：[https://www.aclweb.org/anthology/2020.louhi-1.2/](https://www.aclweb.org/anthology/2020.louhi-1.2/)
 
 
 
