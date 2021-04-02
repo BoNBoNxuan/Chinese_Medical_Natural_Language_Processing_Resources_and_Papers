@@ -1,10 +1,28 @@
-# Chinese_Medical_Natural_Language_Processing_Papers
+# Chinese_Medical_Natural_Language_Processing
 
-中文医疗自然语言处理相关论文汇总，目前主要汇总了EMNLP2020、ACL2020和COLING2020,NAACL2020、EMNLP2021和ACL2021还未公布榜单，公布榜单之后会持续更新
+## 中文医疗数据集
+
+### Yidu-S4K：医渡云结构化4K数据集
+
+数据集地址：[http://openkg.cn/dataset/yidu-s4k](http://openkg.cn/dataset/yidu-s4k)
+
+### Yidu-N7K：医渡云标准化7K数据集
+
+数据集地址：[http://openkg.cn/dataset/yidu-n7k](http://openkg.cn/dataset/yidu-n7k)
+
+### 瑞金医院MMC人工智能辅助构建知识图谱大赛
+
+数据集地址：[https://tianchi.aliyun.com/competition/entrance/231687/information](*https://tianchi.aliyun.com/competition/entrance/231687/information**)
+
+
+# Medical_Natural_Language_Processing_Papers
+
+医学自然语言处理相关论文汇总，目前主要汇总了EMNLP2020、ACL2020和COLING2020,NAACL2020、EMNLP2021和ACL2021还未公布榜单，公布榜单之后会持续更新
 
 ## EMNLP 2020
 
 Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference and Disease Name Recognition
+
 论文地址：[https://www.aclweb.org/anthology/2020.emnlp-main.372/](https://www.aclweb.org/anthology/2020.emnlp-main.372/)
 
 
