@@ -2,11 +2,14 @@
 
 * [Chinese Medical Natural Language Processing_Resources](#chinese_medical_natural_language_processing_resources)
   * [中文医疗数据集](#中文医疗数据集)
-    * [Yidu-S4K：医渡云结构化4K数据集](#yidu-s4k医渡云结构化4k数据集)
-    * [Yidu-N7K：医渡云标准化7K数据集](#yidu-n7k医渡云标准化7k数据集)
-    * [瑞金医院MMC人工智能辅助构建知识图谱大赛](#瑞金医院mmc人工智能辅助构建知识图谱大赛)
+    * [1.Yidu-S4K：医渡云结构化4K数据集](#1.yidu-s4k医渡云结构化4k数据集)
+    * [2.Yidu-N7K：医渡云标准化7K数据集](#2.yidu-n7k医渡云标准化7k数据集)
+    * [3.瑞金医院MMC人工智能辅助构建知识图谱大赛](#3.瑞金医院mmc人工智能辅助构建知识图谱大赛)
+    * [4.中文医药方面的问答数据集](#)
+    * [5.平安医疗科技疾病问答迁移学习比赛](#)
+    * [6.天池“公益AI之星”挑战赛--新冠疫情相似句对判定大赛](#)
   * [中文医疗知识图谱](#中文医学知识图谱)
-    * [CmeKG](#cmekg)
+    * [1.CmeKG](#1.cmekg)
 * [Medical_Natural_Language_Processing_Papers](#medical_natural_language_processing_papers)
  * [EMNLP 2020](#emnlp-2020)
 
@@ -14,17 +17,49 @@
 
 ## 中文医疗数据集
 
-### Yidu-S4K：医渡云结构化4K数据集
+### 1.Yidu-S4K：医渡云结构化4K数据集
+
+> Yidu-S4K 数据集源自CCKS 2019 评测任务一，即“面向中文电子病历的命名实体识别”的数据集，包括两个子任务：
+
+> 1）医疗命名实体识别：由于国内没有公开可获得的面向中文电子病历医疗实体识别数据集，本年度保留了医疗命名实体识别任务，对2017年度数据集做了修订，并随任务一同发布。本子任务的数据集包括训练集和测试集。
+
+> 2）医疗实体及属性抽取（跨院迁移）：在医疗实体识别的基础上，对预定义实体属性进行抽取。本任务为迁移学习任务，即在只提供目标场景少量标注数据的情况下，通过其他场景的标注数据及非标注数据进行目标场景的识别任务。本子任务的数据集包括训练集（非目标场景和目标场景的标注数据、各个场景的非标注数据）和测试集（目标场景的标注数据）。
 
 数据集地址：[http://openkg.cn/dataset/yidu-s4k](http://openkg.cn/dataset/yidu-s4k)
 
-### Yidu-N7K：医渡云标准化7K数据集
+### 2.Yidu-N7K：医渡云标准化7K数据集
+
+> 数据描述：Yidu-N4K 数据集源自CHIP 2019 评测任务一，即“临床术语标准化任务”的数据集。
+
+> 临床术语标准化任务是医学统计中不可或缺的一项任务。临床上，关于同一种诊断、手术、药品、检查、化验、症状等往往会有成百上千种不同的写法。标准化（归一）要解决的问题就是为临床上各种不同说法找到对应的标准说法。有了术语标准化的基础，研究人员才可对电子病历进行后续的统计分析。本质上，临床术语标准化任务也是语义相似度匹配任务的一种。但是由于原词表述方式过于多样，单一的匹配模型很难获得很好的效果。
 
 数据集地址：[http://openkg.cn/dataset/yidu-n7k](http://openkg.cn/dataset/yidu-n7k)
 
-### 瑞金医院MMC人工智能辅助构建知识图谱大赛
+### 3.瑞金医院MMC人工智能辅助构建知识图谱大赛
+
+> 赛题描述：本次大赛旨在通过糖尿病相关的教科书、研究论文来做糖尿病文献挖掘并构建糖尿病知识图谱。参赛选手需要设计高准确率，高效的算法来挑战这一科学难题。第一赛季课题为“基于糖尿病临床指南和研究论文的实体标注构建”，第二赛季课题为“基于糖尿病临床指南和研究论文的实体间关系构建”。
 
 数据集地址：[https://tianchi.aliyun.com/competition/entrance/231687/information](https://tianchi.aliyun.com/competition/entrance/231687/information)
+
+### 4.中文医药方面的问答数据集
+
+> 数据描述：该数据集由IEEE中一篇论文中提出，名为：Multi-Scale Attentive Interaction Networks for Chinese Medical Question Answer Selection，他是一个面向中文医疗方向的问答数据集，数量级别达10万级。
+> 文件说明：questions.csv：所有的问题及其内容；answers.csv：所有问题的答案；train_candidates.txt， dev_candidates.txt， test_candidates.txt：将上述两个文件进行了拆分。
+
+数据集地址：[https://github.com/zhangsheng93/cMedQA2](https://github.com/zhangsheng93/cMedQA2)
+
+### 5.平安医疗科技疾病问答迁移学习比赛
+
+> 任务描述：本次比赛是chip2019中的评测任务二，由平安医疗科技主办。本次评测任务的主要目标是针对中文的疾病问答数据，进行病种间的迁移学习。具体而言，给定来自5个不同病种的问句对，要求判定两个句子语义是否相同或者相近。所有语料来自互联网上患者真实的问题，并经过了筛选和人工的意图匹配标注。首页说明了相关数据的格式。
+
+数据集地址：[https://www.biendata.xyz/competition/chip2019/](https://www.biendata.xyz/competition/chip2019/) 需注册才能下载
+
+### 6.天池“公益AI之星”挑战赛--新冠疫情相似句对判定大赛
+
+> 赛制说明：比赛主打疫情相关的呼吸领域的真实数据积累，数据粒度更加细化，判定难度相比多科室文本相似度匹配更高，同时问答数据也更具时效性。本着宁缺毋滥的原则，问题的场地限制在20字以内，形成相对规范的句对。要求选手通过自然语义算法和医学知识识别相似问答和无关的问题。相关数据说明参见比赛网址首页。
+
+数据集地址：[https://tianchi.aliyun.com/competition/entrance/231776/information](https://tianchi.aliyun.com/competition/entrance/231776/information) 需注册才能下载
+
 
 ## 中文医学知识图谱
 
@@ -38,9 +73,72 @@ CMEKG图谱地址：[http://cmekg.pcl.ac.cn/](http://cmekg.pcl.ac.cn/)
 
 # Medical_Natural_Language_Processing_Papers
 
-医学自然语言处理相关论文汇总，目前主要汇总了EMNLP2020、ACL2020和COLING2020,NAACL2020、EMNLP2021和ACL2021还未公布榜单，公布榜单之后会持续更新
+医学自然语言处理相关论文汇总，目前主要汇总了EMNLP2020、ACL2020和COLING2020, NAACL2020、EMNLP2021和ACL2021等相关会议还未公布榜单，公布榜单之后会持续更新。
 
-## EMNLP 2020
+## 1.AAAI 2021
+
+Subtype-Aware Unsupervised Domain Adaptation for Medical Diagnosis
+
+论文地址：[https://arxiv.org/pdf/2101.00318.pdf](https://arxiv.org/pdf/2101.00318.pdf)
+
+
+Graph-Evolving Meta-Learning for Low-Resource Medical Dialogue Generation
+
+论文地址：[https://arxiv.org/pdf/2012.11988.pdf](https://arxiv.org/pdf/2012.11988.pdf)
+
+
+A Lightweight Neural Model for Biomedical Entity Linking
+
+论文地址：[https://arxiv.org/pdf/2012.08844.pdf](https://arxiv.org/pdf/2012.08844.pdf)
+
+
+Automated Lay Language Summarization of Biomedical Scientific Reviews
+
+论文地址：[https://arxiv.org/pdf/2012.12573.pdf](https://arxiv.org/pdf/2012.12573.pdf)
+
+
+MTAAL: Multi-Task Adversarial Active Learning for Medical Named Entity Recognition and Normalization
+
+论文地址：[https://arxiv.org/pdf/1902.10118.pdf](https://arxiv.org/pdf/1902.10118.pdf)
+
+
+MELINDA: A Multimodal Dataset for Biomedical Experiment Method Classification
+
+论文地址：[https://arxiv.org/pdf/2012.09216.pdf](https://arxiv.org/pdf/2012.09216.pdf)
+
+
+## 2.AAAI 2020
+
+Simultaneously Linking Entities and Extracting Relations from Biomedical Text without Mention-Level Supervision
+
+论文地址：[https://aaai.org/ojs/index.php/AAAI/article/view/6236](https://aaai.org/ojs/index.php/AAAI/article/view/6236)
+
+
+Can Embeddings Adequately Represent Medical Terminology? New Large-Scale Medical Term Similarity Datasets Have the Answer!
+
+论文地址：[https://aaai.org/ojs/index.php/AAAI/article/view/6404](https://aaai.org/ojs/index.php/AAAI/article/view/6404)
+
+
+Understanding Medical Conversations with Scattered Keyword Attention and Weak Supervision from Responses
+
+论文地址：[https://aaai.org/ojs/index.php/AAAI/article/view/6412](https://aaai.org/ojs/index.php/AAAI/article/view/6412)
+
+
+Learning Conceptual-Contextual Embeddings for Medical Text
+
+论文地址：[https://aaai.org/ojs/index.php/AAAI/article/view/6504](https://aaai.org/ojs/index.php/AAAI/article/view/6504)
+
+
+LATTE: Latent Type Modeling for Biomedical Entity Linking
+
+论文地址：[https://aaai.org/ojs/index.php/AAAI/article/view/6526](https://aaai.org/ojs/index.php/AAAI/article/view/6526)
+
+
+## 3.ACL 2020
+
+
+
+## 4.EMNLP 2020
 
 Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference and Disease Name Recognition
  
