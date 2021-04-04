@@ -15,10 +15,10 @@
       * [PKUSEG](#pkuseg)
   * [友情链接](#友情链接)
 * [Medical_Natural_Language_Processing_Papers](#medical_natural_language_processing_papers)
- * [1.AAAI 2021](#1aaai-2021)
- * [2.AAAI 2020](#2aaai-2020)
- * [3.ACL 2020](#3acl-2020)
- * [4.EMNLP 2020](#4emnlp-2020)
+  * [1.AAAI 2021](#1aaai-2021)
+  * [2.AAAI 2020](#2aaai-2020)
+  * [3.ACL 2020](#3acl-2020)
+  * [4.EMNLP 2020](#4emnlp-2020)
 
 
 # Chinese_Medical_Natural_Language_Processing_Resources
