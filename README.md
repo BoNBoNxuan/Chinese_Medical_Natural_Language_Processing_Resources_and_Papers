@@ -2,16 +2,19 @@
 
 * [Chinese Medical Natural Language Processing_Resources](#chinese_medical_natural_language_processing_resources)
   * [中文医疗数据集](#中文医疗数据集)
-    * [1.Yidu-S4K：医渡云结构化4K数据集](#1.yidu-s4k医渡云结构化4k数据集)
-    * [2.Yidu-N7K：医渡云标准化7K数据集](#2.yidu-n7k医渡云标准化7k数据集)
-    * [3.瑞金医院MMC人工智能辅助构建知识图谱大赛](#3.瑞金医院mmc人工智能辅助构建知识图谱大赛)
-    * [4.中文医药方面的问答数据集](#)
-    * [5.平安医疗科技疾病问答迁移学习比赛](#)
-    * [6.天池“公益AI之星”挑战赛--新冠疫情相似句对判定大赛](#)
+    * [1.Yidu-S4K：医渡云结构化4K数据集](#1yidu-s4k医渡云结构化4k数据集)
+    * [2.Yidu-N7K：医渡云标准化7K数据集](#2yidu-n7k医渡云标准化7k数据集)
+    * [3.瑞金医院MMC人工智能辅助构建知识图谱大赛](#3瑞金医院mmc人工智能辅助构建知识图谱大赛)
+    * [4.中文医药方面的问答数据集](#4中文医药方面的问答数据集)
+    * [5.平安医疗科技疾病问答迁移学习比赛](#5平安医疗科技疾病问答迁移学习比赛)
+    * [6.天池“公益AI之星”挑战赛--新冠疫情相似句对判定大赛](#6天池公益ai之星挑战赛--新冠疫情相似句对判定大赛)
   * [中文医疗知识图谱](#中文医学知识图谱)
-    * [1.CmeKG](#1.cmekg)
+    * [1.CmeKG](#1cmekg)
 * [Medical_Natural_Language_Processing_Papers](#medical_natural_language_processing_papers)
- * [EMNLP 2020](#emnlp-2020)
+ * [1.AAAI 2021](#1aaai-2021)
+ * [2.AAAI 2020](#2aaai-2020)
+ * [3.ACL 2020](#3acl-2020)
+ * [4.EMNLP 2020](#4emnlp-2020)
 
 # Chinese_Medical_Natural_Language_Processing_Resources
 
@@ -63,7 +66,7 @@
 
 ## 中文医学知识图谱
 
-### CMEKG
+### 1.CMEKG
 
 > 知识图谱简介：CMeKG（Chinese Medical Knowledge Graph）是利用自然语言处理与文本挖掘技术，基于大规模医学文本数据，以人机结合的方式研发的中文医学知识图谱。CMeKG的构建参考了ICD、ATC、SNOMED、MeSH等权威的国际医学标准以及规模庞大、多源异构的临床指南、行业标准、诊疗规范与医学百科等医学文本信息。CMeKG 1.0包括：6310种疾病、19853种药物（西药、中成药、中草药）、1237种诊疗技术及设备的结构化知识描述，涵盖疾病的临床症状、发病部位、药物治疗、手术治疗、鉴别诊断、影像学检查、高危因素、传播途径、多发群体、就诊科室等以及药物的成分、适应症、用法用量、有效期、禁忌证等30余种常见关系类型，CMeKG描述的概念关系实例及属性三元组达100余万。
 
