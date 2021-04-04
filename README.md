@@ -3,6 +3,11 @@
 * Chinese Medical Natural Language Processing
   * [中文已医疗数据集](#中文已医疗数据集)
     * [Yidu-S4K：医渡云结构化4K数据集](#Yidu-S4K：医渡云结构化4K数据集)
+    * Yidu-N7K：医渡云标准化7K数据集
+    * 瑞金医院MMC人工智能辅助构建知识图谱大赛
+  * 中文医疗知识图谱
+* Medical_Natural_Language_Processing_Papers
+ * EMNLP 2020
 
 ## 中文医疗数据集
 
