@@ -1,13 +1,16 @@
-* [Chinese Medical Natural Language Processing]()
-  * [中文已医疗数据集](#中文已医疗数据集)
-    * [Yidu-S4K：医渡云结构化4K数据集](#yidu-s4k医渡云结构化4k数据集)
-    * [Yidu-N7K：医渡云标准化7K数据集]()
-    * [瑞金医院MMC人工智能辅助构建知识图谱大赛]()
-  * [中文医疗知识图谱]()
-* [Medical_Natural_Language_Processing_Papers]()
- * [EMNLP 2020]()
+# Chinese Medical Natural Language Processing Resources and Papers
 
-# Chinese_Medical_Natural_Language_Processing
+* [Chinese Medical Natural Language Processing_Resources](#chinese_medical_natural_language_processing_resources)
+  * [中文医疗数据集](#中文医疗数据集)
+    * [Yidu-S4K：医渡云结构化4K数据集](#yidu-s4k医渡云结构化4k数据集)
+    * [Yidu-N7K：医渡云标准化7K数据集](#yidu-n7k医渡云标准化7k数据集)
+    * [瑞金医院MMC人工智能辅助构建知识图谱大赛](#瑞金医院mmc人工智能辅助构建知识图谱大赛)
+  * [中文医疗知识图谱](#中文医学知识图谱)
+    * [CmeKG](#cmekg)
+* [Medical_Natural_Language_Processing_Papers](#medical_natural_language_processing_papers)
+ * [EMNLP 2020](#emnlp-2020)
+
+# Chinese_Medical_Natural_Language_Processing_Resources
 
 ## 中文医疗数据集
 
