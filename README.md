@@ -15,7 +15,7 @@
       * [PKUSEG](#pkuseg)
   * [友情链接](#友情链接)
 * [Medical_Natural_Language_Processing_Papers](#medical_natural_language_processing_papers)
-  * [1.AAAI 2021](#1naacl-2021)
+  * [1.NAACL 2021](#1naacl-2021)
   * [2.AAAI 2021](#2aaai-2021)
   * [3.AAAI 2020](#3aaai-2020)
   * [4.ACL 2020](#4acl-2020)
